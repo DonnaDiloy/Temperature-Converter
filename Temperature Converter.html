@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/TemperatureConverter.css">
+        <script src="assets/js/TemperatureConverter.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <title>Temperature Converter</title>
+    </head>
+
+     <body>
+
+        <div class="container">
+            <h1>Temperature Converter</h1>
+            <label for="celsius">Celsius</label>&nbsp;&nbsp;&nbsp;
+            <input id="celsius" type="text" placeholder="Enter Celsius">&nbsp;&nbsp;&nbsp;
+            <button class="button" onclick="convertFahrenheit()"> Convert Fahrenheit</button>
+            <br><br>
+
+            <label for="fahrenheit">Fahrenheit</label>&nbsp;&nbsp;&nbsp;
+            <input id="fahrenheit" type="text" placeholder="Enter Fahrenheit">&nbsp;&nbsp;&nbsp;
+            <button class="button" onclick="convertCelsius()"> Convert Celsius</button>
+            <br><br>
+
+            <button class="button" onclick="reset()">Reset</button>
+        </div>
+     </body>
+     </html>
